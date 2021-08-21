@@ -65,10 +65,10 @@ MIDDLEWARE = [
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
 SITE_ID = 1 
 
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',    # default port for React app
-    'http://localhost:8000',    # port for hosting the api
-)
+# CORS_ORIGIN_WHITELIST = (
+#     'http://localhost:3000',    
+#     'http://localhost:8000',    
+# )
 
 ROOT_URLCONF = 'ecomm.urls'
 
